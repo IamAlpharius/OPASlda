@@ -12,7 +12,7 @@ public class Loveaaa {
         int b = 0;
         System.out.println("Основной массив");
         for (int i = 0; i < mass.length; i++) {
-            mass[i] = r.nextInt(9);
+            mass[i] = r.nextInt(9);  //sadasdsadkdsad
         }
         for (int i = 0; i < mass.length; i++) {
             System.out.print(mass[i]);
@@ -22,7 +22,7 @@ public class Loveaaa {
             if (mass[i] % 2 == 0) {
                 k++;
             } else {
-                b++;
+                b++; //sadasdsdasda
             }
         }
         System.out.println("Количество четных = " + k);
